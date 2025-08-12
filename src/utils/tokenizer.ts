@@ -96,10 +96,10 @@ export class CustomTokenizer {
     const sortedTokens = Array.from(tokenCounts.entries())
       // keep unused var for better readibilty
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      .sort(([tokenA, freqA], [tokenB, freqB]) => freqB - freqA)
+      .sort(([, freqA], [, freqB]) => freqB - freqA)
 
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      .map(([token, count]) => token);
+      .map(([token]) => token);
 
     // Add tokens respecting vocab size limit
     for (const token of sortedTokens) {
