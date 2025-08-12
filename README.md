@@ -4,7 +4,7 @@ A TypeScript implementation of a custom text tokenizer with a React demo interfa
 
 ## 🚀 Live Demo
 
-**[Try it live here →](YOUR_DEPLOYMENT_LINK)**
+**[Try it live here →](https://yghugardare.github.io/custom-tokenizer/)**
 
 ## ✨ Features
 
